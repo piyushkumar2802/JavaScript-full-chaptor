@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>logical operator</title>
+</head>
+<body>
+    <h1>logical operator- use one or more then one coditione on one statement then use logic operator.</h1>
+    <p>its three type</p>
+    <ul>
+        <li>logical AND-(&&) both condition must be true</li>
+        <li>logical OR- (||) Either one condition must be true</li>
+        <li>logical NOT- (!) operator value is true then logical not operator value is given false</li>
+    </ul>
+
+    <h3>ex-</h3>
+    <script>
+        var age = 20;
+        if (age>=18 && age<=21) {
+           document.write('your age is conformed <br>'); 
+        }
+        var Match=15;
+        if (Match>=10 || Match<=14) {
+           document.write('your one condition is true <br>'); 
+        }
+        var a = 30;
+        var b = 5;
+        if (!a<=12) {
+           document.write('not operator <br>'); 
+           console.log(!a<=12);
+        }
+    </script>
+
+</body>
+</html>
