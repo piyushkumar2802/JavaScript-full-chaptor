@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A gerater then b yes or no</title>
+</head>
+<body>
+    <script>
+        var a = parseInt(prompt("Enter a Value of a"));
+        var b = parseInt(prompt("Enter a value of b"));
+
+        document.write("value of a = "+a+"<br>");
+        document.write("value of b = "+b+"<br>");
+        if (a<b) {
+            var whichgrater = b-a;
+            document.write("yes <br>")
+            document.write("Which graterthen = "+whichgrater);
+        } else if(a==b) {
+            document.write("Equal A and B <br>");
+            document.write(a+" = "+b);
+        } else{
+            whichbgigger = a-b;
+            document.write("no <br>");
+            document.write("Which lessthen = "+whichbgigger);
+        }
+        
+    </script>
+</body>
+</html>

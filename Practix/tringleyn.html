@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tringle check yes or not</title>
+  </head>
+  <body>
+    <script>
+      var a = parseInt(prompt("Enter Value of A"));
+      var b = parseInt(prompt("Enter a value of B"));
+      var c = parseInt(prompt("Enter a value of C"));
+
+      document.write("value of a = " + a + "<br>");
+      document.write("value of b = " + b + "<br>");
+      document.write("value of c = " + c + "<br>");
+
+        const con1 = a + b > c;
+        const con2 = b + c > a;
+        const con3 = c + a > b;
+
+        if (con1 && con2 && con3) {
+            document.write("this is tringle");
+        } else{
+            document.write("this is not a tringle");
+        }
+    </script>
+  </body>
+</html>

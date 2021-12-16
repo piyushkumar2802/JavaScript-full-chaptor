@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1 to n  even and odd nuumber print</title>
+</head>
+<body>
+    <script>
+        var start = parseInt(prompt("enter a starting number"));
+        var end = parseInt(prompt("enter a end number"));
+        
+        if (start%2==0){
+            document.write("Even Number = ")
+            while(start<end){
+                document.write(start+" , ");
+                start=start+2;
+            }
+        } else{
+            document.write("Odd Number = ")
+            while(start<end){
+                document.write(start+" , ");
+                start=start+2;
+            }
+        }
+    </script>
+</body>
+</html>
